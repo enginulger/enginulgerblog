@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uygulama</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- A small experiment By @hexapode (pld.io) -->
+    
+    <!-- WORK ON MOBILE TOO :D -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+</head>
+<body>
+
+  
+  <!--======= navbar ======= --->
+  <header>
+      <%=render 'shared/navbar' %>
+  </header>
+  <!-- ====== /navbar ======== -->
+  <div class="aralik">
+    
+  </div>
+   <%= yield %>
+    
+    <!-- ============ footer =========== -->
+    <footer>
+      <%=render 'shared/footer' %>
+    </footer>
+     <!-- ============ /footer =========== -->
+</body>
+</html> 

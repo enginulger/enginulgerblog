@@ -1,0 +1,584 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body{
+    font-family: 'Pangolin', cursive;
+    font-size:20px;
+}
+
+.aralik{
+    margin-top:150px;
+}
+
+
+
+
+
+
+#post_title {
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+#post_msg{
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 60%;
+  height: 120px;
+}
+
+#post_image{
+    position: relative;
+    margin-left: 46%;
+}
+.ortala{
+    position: relative;
+    margin: auto;
+    text-align:center;
+    margin-top:20px;
+}
+
+
+
+
+/* <new>*/
+.circle{
+  background: #ffffff;
+  //padding: 35px;
+  //text-align: center;
+  //height: 600px;
+  //width: 600px;
+  border: 8px solid #F2F2F2;
+  
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  padding-top: auto;
+  background: white;
+    
+    transition: all 0.5s;
+  -moz-transition: all 0.5s; /* Firefox 4 */
+  -webkit-transition: all 0.5s; /* Safari and Chrome */
+  -o-transition: all 0.5s; /* Opera */
+}
+.c1:hover{
+  background: #39b3d7;
+  color: #ffffff;
+}
+.c1 .blue{
+  color: #39b3d7;
+}
+.c1:hover .blue{
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*</new>*/
+.circle_ayar{
+  background: #ffffff;
+  padding: 35px;
+  text-align: center;
+  height: 650px;
+  width: 650px;
+  border: 8px solid #F2F2F2;
+    
+    transition: all 0.5s;
+  -moz-transition: all 0.5s; /* Firefox 4 */
+  -webkit-transition: all 0.5s; /* Safari and Chrome */
+  -o-transition: all 0.5s; /* Opera */
+}
+
+
+/*edit_ ayarlar*/
+#user_email{
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+#user_password{
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+#user_password_confirmation{
+    border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+#user_current_password{
+    border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+
+/* </ayarlar> */
+
+
+#user_name{
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+#user_image{
+  border-radius: 3px;
+  border: 3px solid #c9d0d6;
+  width: 40%;
+}
+.btn{
+    width: 40%;
+}
+
+.form-control{
+position: relative;
+    margin: auto;
+    text-align:center;
+    margin-top:40px;
+}
+
+
+
+
+.img-circular{
+ width: 50px;
+ height: 50px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
+.comment-text{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    margin: 10px;
+}
+
+.mic-info{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+     margin: 10px;
+}
+
+.img{
+    //width: 50px;
+ //height: 50px;
+ margin-top: 5px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 50px;
+ -moz-border-radius: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+/*============================================================
+	Footer
+==============================================================*/
+
+#footer {
+    //background-color: #2E2E2E;
+    padding: 0px 0;
+    color: #fff;
+    margin-top:-25px;
+    
+}
+
+.footer-content {
+    width: 390px;
+    margin: 0 auto;
+}
+
+.footer-content > div {
+    margin-bottom: 40px;
+}
+
+.footer-content > div > p:first-child {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.subscribe.form-control {
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+}
+
+.subscribe.form-control:focus {
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+}
+
+.submit-icon {
+    background-color: #7f7f7f;
+    border: 0 none;
+    border-radius: 0;
+    color: #c1c1c1;
+    padding: 13px 20px;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+}
+
+.submit-icon .fa-paper-plane {
+    position: relative;
+    top: 0;
+    
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+         -o-transform: translateX(0);
+            transform: translateX(0);
+
+    -webkit-transition: all 0.3s ease 0.2s;
+       -moz-transition: all 0.3s ease 0.2s;
+        -ms-transition: all 0.3s ease 0.2s;
+         -o-transition: all 0.3s ease 0.2s;
+            transition: all 0.3s ease 0.2s;
+}
+
+.submit-icon:hover .fa-paper-plane {
+    position: relative;
+    top: -37px;
+    
+    -webkit-transform: translateX(30px);
+       -moz-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+         -o-transform: translateX(30px);
+            transform: translateX(30px);
+}
+
+.footer-content .footer-social {
+    margin: 60px 0 35px;
+}
+
+.footer-social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social ul li a {
+    color: #7f7f7f;
+    display: block;
+    
+    -webkit-transition: all 0.2s ease 0s;
+       -moz-transition: all 0.2s ease 0s;
+        -ms-transition: all 0.2s ease 0s;
+         -o-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+
+.footer-social ul li a:hover {
+    color: #009EE3;
+}
+
+.footer-content > p {
+    color: #ababab;
+    font-size: 12px;
+}
+
+
+/////////////////
+
+.image {
+   background-color: #490D40;
+   background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view-South-Iceland3.jpg) no-repeat center center;
+   background-size: cover;
+   height: 570px;
+   margin-top: -20px;
+   
+   .heading {
+      color: white;
+      text-align: center;
+      padding-top: 200px;
+   }
+
+   p {
+      text-align: center;
+      padding: 20px 60px;
+      
+       .btn {
+         background-color: transparent;
+         color: white;
+         border: 1px solid white;
+         padding: 10px;
+         font-size: 1.2em;
+             
+          &:hover {
+             color: #C57ED3;
+             border-color: #C57ED3;
+          }
+      }
+   }
+}
+
+.navbar {
+  height: 82px;
+  //background-color: transparent;
+  background: rgba(255, 0, 0, 0.1);
+  //background-color: rgba(255,255,0,0.3);
+
+  border: none;
+  color: black;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+
+.navbar-default {
+  
+   .navbar-brand {
+     margin-top: 10px;
+     color: black;
+     font-size: 30px;
+        
+      &:hover {
+         color: #C57ED3;
+         border: 1px solid #C57ED3;
+      } 
+   }
+   
+  .navbar-nav {
+    
+    > li {
+      
+      > a {
+        color: white;
+        margin: 10px 5px 5px 5px;
+        
+      }
+      > a:hover, > a:active, > a:focus {
+        color: #C57ED3;
+        border: 1px solid #C57ED3;
+      }
+      > a:visited {
+        color: #C57ED3;
+        text-decoration: none;
+      }
+
+    } //end li
+
+    > .active {
+
+      > a, > a:hover, > a:focus {
+        background-color: transparent;
+        color: #C57ED3;
+      }
+
+    }
+
+  } //end .navbar-nav
+
+  //Collapsed styles
+  .navbar-toggle {
+    border-color: #C57ED3;
+
+      &:hover, &:focus {
+        background-color: #490D40;
+      }
+
+
+
+      .icon-bar {
+        color: #C57ED3;
+        background-color: #C57ED3;
+
+      }
+  }
+
+  .navbar-collapse.collapse.in ul {
+    background-color: #490D40;
+  }
+    
+} //end .navbar-default
+
+
+
+/* Solid class attached on scroll past first section */
+
+.navbar.solid {
+  background-color: #490D40;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+
+    .navbar-brand {
+      color: black;
+      transition: color 1s ease 0s;
+    }
+
+    .navbar-nav {
+
+       > li {
+
+          > a {
+            color: #C57ED3;
+            transition: color 1s ease 0s;
+          }
+
+       } //end li
+
+    } //end .navbar-nav
+
+}
+
+.about {
+   background-color: #C57ED3;
+   color: #490D40;
+   height: 500px;
+   text-align: center;
+   margin-top: -20px;
+   
+   h2 {
+      padding-top: 220px;
+   }
+   p {
+      padding: 20px 80px;
+   }
+}
+
+
+
+.dropdown-toggle{
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: black;
+}
+
+
+.menu{
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+h1.loader {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.6875em;
+  color: transparent;
+  letter-spacing: 0.01em;
+}
+
+.loader span {
+  text-shadow:
+    0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.3),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);
+  
+    animation: loading 0.85s ease-in-out infinite alternate;
+}
+
+@keyframes loading {
+	to {text-shadow:
+    0 0 2px rgba(204, 208, 212,0.2),
+    0 0 3px rgba(0, 0, 0, 0.02),
+    0 0 0 rgba(0, 0, 0, 0),
+    0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(0, 0, 0, 0),
+    0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(255, 255, 255, 0);}
+}
+
+.loader span:nth-child(2) {
+  animation-delay:0.15s;
+}
+
+.loader span:nth-child(3) {
+  animation-delay:0.30s;
+}
+
+.loader span:nth-child(4) {
+  animation-delay:0.45s;
+}
+
+.loader span:nth-child(5) {
+  animation-delay:0.60s;
+}
+
+.loader span:nth-child(6) {
+  animation-delay:0.75s;
+}
+
+.loader span:nth-child(7) {
+  animation-delay:0.90s;
+}
+
+
+.yazi-tipi{
+     font-family: 'Pangolin', cursive;
+    font-size:20px;
+}
+
+.yukseklik{
+    margin-top: -12px;
+}
+.yukseklik-dil{
+    margin-top: -8px;
+}
+
